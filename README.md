@@ -41,13 +41,13 @@ Unidad 3 - Actividad 2. Detección de equipos, puertos, servicios,vulnerabilidad
             nikto -h [http://dominio_o_ip]
             ```
 - Cómo utilizar Wfuzz, Dirb para localizar recursos web en servidores.
-    > **Wfuzz**: Herramienta para fuzzing en aplicaciones web. Se utiliza para identificar directorios y archivos ocultos.
-      - Ejemplo de comando básico para fuzzing de directorios:
+    - **Wfuzz**: Herramienta para fuzzing en aplicaciones web. Se utiliza para identificar directorios y archivos ocultos.
+         Ejemplo de comando básico para fuzzing de directorios:
             ```bash
             wfuzz -c -w /ruta/a/wordlist.txt -u http://[dominio]/FUZZ
             ```
-    > **Dirb**: Herramienta similar a Wfuzz para buscar recursos en aplicaciones web.
-      - Ejemplo de comando básico para buscar directorios:
+    - **Dirb**: Herramienta similar a Wfuzz para buscar recursos en aplicaciones web.
+        Ejemplo de comando básico para buscar directorios:
             ```bash
             dirb http://[dominio]
             ```
