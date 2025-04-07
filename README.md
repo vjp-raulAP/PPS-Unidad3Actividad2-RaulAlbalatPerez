@@ -3,16 +3,17 @@ Unidad 3 - Actividad 2. Detección de equipos, puertos, servicios,vulnerabilidad
 ---
 ## ACTIVIDADES A REALIZAR
 - Busca información de:
-	- Como podemos obtener información pública con protocolo whois, web DoaminTools y DSNrecon.
+  - Como podemos obtener información pública con protocolo whois, web DoaminTools y DSNrecon.
     Información pública: `whois`, DomainTools y `dnsrecon`
 
     - **WHOIS**: Es una herramienta que permite consultar información sobre el propietario de un dominio o una dirección IP.
-  - **Comando WHOIS** (en Kali o Linux):
-  
+        **Comando WHOIS** (en Kali o Linux):
+
     ```bash
     whois [dominio_o_ip]
     ```
     - **DomainTools**: Plataforma en línea que proporciona información detallada sobre dominios, como registros históricos, propietarios, etc. Puedes buscar en [https://www.domaintools.com/](https://www.domaintools.com/).
+
     - **DNSRecon**: Herramienta para obtener información de registros DNS de un dominio. Algunos comandos básicos:
 
     ```bash
