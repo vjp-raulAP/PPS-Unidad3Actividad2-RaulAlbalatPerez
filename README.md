@@ -36,18 +36,18 @@ Unidad 3 - Actividad 2. Detección de equipos, puertos, servicios,vulnerabilidad
         - Escaneo de vulnerabilidades con scripts de Nmap (ver más abajo).
     
     - **Nikto**: Escáner de vulnerabilidades web para identificar configuraciones incorrectas y vulnerabilidades comunes en servidores web.
-    - Comando básico para escanear un servidor web:
+        - Comando básico para escanear un servidor web:
             ```bash
             nikto -h [http://dominio_o_ip]
             ```
 - Cómo utilizar Wfuzz, Dirb para localizar recursos web en servidores.
     - **Wfuzz**: Herramienta para fuzzing en aplicaciones web. Se utiliza para identificar directorios y archivos ocultos.
-         Ejemplo de comando básico para fuzzing de directorios:
+        - Ejemplo de comando básico para fuzzing de directorios:
             ```bash
-            wfuzz -c -w /ruta/a/wordlist.txt -u http://[dominio]/FUZZ
+        - wfuzz -c -w /ruta/a/wordlist.txt -u http://[dominio]/FUZZ
             ```
     - **Dirb**: Herramienta similar a Wfuzz para buscar recursos en aplicaciones web.
-        Ejemplo de comando básico para buscar directorios:
+        - Ejemplo de comando básico para buscar directorios:
             ```bash
             dirb http://[dominio]
             ```
