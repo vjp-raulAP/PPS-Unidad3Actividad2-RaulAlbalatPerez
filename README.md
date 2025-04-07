@@ -21,46 +21,46 @@ Unidad 3 - Actividad 2. Detección de equipos, puertos, servicios,vulnerabilidad
     ```
 
 - Cómo podemos utilizar Nmap y nikto,   para buscar equipos, puertos abiertos, servicios, vulnerabilidades.
- - **Nmap**: Herramienta para escanear puertos, identificar servicios y detectar vulnerabilidades. Algunos ejemplos de comandos:
-    - Escaneo básico de puertos:
-        ```bash
-        nmap [IP o dominio]
-        ```
-    - Escaneo de puertos con detección de servicios:
-        ```bash
-        nmap -sV [IP o dominio]
-    - Detección de sistema operativo:
-        ```bash
-        nmap -O [IP o dominio]
-        ```
-    - Escaneo de vulnerabilidades con scripts de Nmap (ver más abajo).
-  
-- **Nikto**: Escáner de vulnerabilidades web para identificar configuraciones incorrectas y vulnerabilidades comunes en servidores web.
-  - Comando básico para escanear un servidor web:
-        ```bash
-        nikto -h [http://dominio_o_ip]
-        ```
+    - **Nmap**: Herramienta para escanear puertos, identificar servicios y detectar vulnerabilidades. Algunos ejemplos de comandos:
+        - Escaneo básico de puertos:
+            ```bash
+            nmap [IP o dominio]
+            ```
+        - Escaneo de puertos con detección de servicios:
+            ```bash
+            nmap -sV [IP o dominio]
+        - Detección de sistema operativo:
+            ```bash
+            nmap -O [IP o dominio]
+            ```
+        - Escaneo de vulnerabilidades con scripts de Nmap (ver más abajo).
+    
+    - **Nikto**: Escáner de vulnerabilidades web para identificar configuraciones incorrectas y vulnerabilidades comunes en servidores web.
+    - Comando básico para escanear un servidor web:
+            ```bash
+            nikto -h [http://dominio_o_ip]
+            ```
 - Cómo utilizar Wfuzz, Dirb para localizar recursos web en servidores.
-- **Wfuzz**: Herramienta para fuzzing en aplicaciones web. Se utiliza para identificar directorios y archivos ocultos.
-  - Ejemplo de comando básico para fuzzing de directorios:
-        ```bash
-        wfuzz -c -w /ruta/a/wordlist.txt -u http://[dominio]/FUZZ
-        ```
-- **Dirb**: Herramienta similar a Wfuzz para buscar recursos en aplicaciones web.
-  - Ejemplo de comando básico para buscar directorios:
-        ```bash
-        dirb http://[dominio]
-        ```
+    - **Wfuzz**: Herramienta para fuzzing en aplicaciones web. Se utiliza para identificar directorios y archivos ocultos.
+    - Ejemplo de comando básico para fuzzing de directorios:
+            ```bash
+            wfuzz -c -w /ruta/a/wordlist.txt -u http://[dominio]/FUZZ
+            ```
+    - **Dirb**: Herramienta similar a Wfuzz para buscar recursos en aplicaciones web.
+    - Ejemplo de comando básico para buscar directorios:
+            ```bash
+            dirb http://[dominio]
+            ```
 - Que scripts que podemos utilizar con Nmap para la búsqueda de vulnerabilidades.
-- **Nmap Scripting Engine (NSE)**: Nmap tiene un conjunto de scripts predefinidos para detectar vulnerabilidades.
-  - Para ver la lista de scripts disponibles, puedes consultar:
-    ```bash
-    nmap --script-help
-    ```
-  - Para ejecutar un script de vulnerabilidad, por ejemplo:
-    ```bash
-    nmap --script=vuln [IP]
-    ```
+    - **Nmap Scripting Engine (NSE)**: Nmap tiene un conjunto de scripts predefinidos para detectar vulnerabilidades.
+    - Para ver la lista de scripts disponibles, puedes consultar:
+        ```bash
+        nmap --script-help
+        ```
+    - Para ejecutar un script de vulnerabilidad, por ejemplo:
+        ```bash
+        nmap --script=vuln [IP]
+        ```
 
 
 - Cómo podemos buscar información de explotación de vulnerabilidades con searchsploit
