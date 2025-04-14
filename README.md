@@ -92,11 +92,14 @@ Unidad 3 - Actividad 2. Detección de equipos, puertos, servicios,vulnerabilidad
 
 - Sobre la red del laboratorio PPS con kali, bWAPP, Multidillae y DVWA:<
     Lo primero que hacemos es arranca el el multicontenedor con los diferentes servicios.Desde el kali realizare las siguientes operaciones para resolver los ejercicios más adelante.
+
     ![](imagenes/imagen6.png) 
+
     Para ello ejecuto un `docker exec -it entorno-vulnerable-raul_kali_1 /bin/bash`del kali . y ya estaría dentro del kali.
+
     ![](imagenes/imagen7.png) 
 
-	- Ayudándote del fichero docker-compose localiza las diferentes máquinas y puertos que deberían de tener abiertos.
+	- ## Ayudándote del fichero docker-compose localiza las diferentes máquinas y puertos que deberían de tener abiertos.
 	- ## Identifica los equipos de la Red con Nmap.
     Para  identificar los equipos  hacemos un escaneo del dominio 
         ```
@@ -119,8 +122,7 @@ Unidad 3 - Actividad 2. Detección de equipos, puertos, servicios,vulnerabilidad
 	- ## Encuentra los Servicios y Sistemas Operativos de las MV.
     - Detección de sistema operativo:
             ```bash
-            nmap -O [IP o dominio]
-          
+             nmap -O [IP o dominio]
             ```
         ![](imagenes/imagen10.png) 
 
@@ -160,6 +162,8 @@ Unidad 3 - Actividad 2. Detección de equipos, puertos, servicios,vulnerabilidad
 
 
 	- ## Utiliza el comando searchsploit para buscar información de explotación de vulnerabilidades presentes en linux con kernel 5
+
+    Uso el comando `searchsploit linux kernel 5`para buscar toda la información.
       
         ![](imagenes/imagen17.png)
 
