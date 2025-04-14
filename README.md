@@ -114,8 +114,10 @@ Unidad 3 - Actividad 2. Detección de equipos, puertos, servicios,vulnerabilidad
     ![](imagenes/imagen8.png) 
 
     Del resultado de la consulta, obtenemos las direcciones IP de las diferentes servicios. Así como los puertos abiertos.
-    hacemos un escaneo más profundo para ver puertos y servicios de la ip 172.18.0.6  y 172.18.0.8 para ver los diferentes resultados.
+    hacemos un escaneo más profundo para ver puertos y servicios de la ip **172.18.0.6**  y **172.18.0.8** obtenidas previamente dle escaneo **nmap** para ver los diferentes resultados.
+
     -  ## Realiza análisis de puertos en las MV.
+    
     Escaneo de puertos con detección de servicios:
             ```bash
             nmap -sV [IP o dominio]
