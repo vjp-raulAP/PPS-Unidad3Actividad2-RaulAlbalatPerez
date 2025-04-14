@@ -3,7 +3,7 @@ Unidad 3 - Actividad 2. Detección de equipos, puertos, servicios,vulnerabilidad
 ---
 ## ACTIVIDADES A REALIZAR
 - Busca información de:
-  - Como podemos obtener información pública con protocolo whois, web DoaminTools y DSNrecon.
+  - ## Como podemos obtener información pública con protocolo whois, web DoaminTools y DSNrecon.
     Información pública: `whois`, DomainTools y `dnsrecon`
 
     - **WHOIS**: Es una herramienta que permite consultar información sobre el propietario de un dominio o una dirección IP.
@@ -20,7 +20,7 @@ Unidad 3 - Actividad 2. Detección de equipos, puertos, servicios,vulnerabilidad
     dnsrecon -d [dominio]
     ```
 
-- Cómo podemos utilizar Nmap y nikto,   para buscar equipos, puertos abiertos, servicios, vulnerabilidades.
+- ## Cómo podemos utilizar Nmap y nikto,   para buscar equipos, puertos abiertos, servicios, vulnerabilidades.
     - **Nmap**: Herramienta para escanear puertos, identificar servicios y detectar vulnerabilidades. Algunos ejemplos de comandos:
         - Escaneo básico de puertos:
             ```bash
@@ -41,7 +41,7 @@ Unidad 3 - Actividad 2. Detección de equipos, puertos, servicios,vulnerabilidad
             ```bash
             nikto -h [http://dominio_o_ip]
             ```
-- Cómo utilizar Wfuzz, Dirb para localizar recursos web en servidores.
+- ## Cómo utilizar Wfuzz, Dirb para localizar recursos web en servidores.
     - **Wfuzz**: Herramienta para fuzzing en aplicaciones web. Se utiliza para identificar directorios y archivos ocultos.
         - Ejemplo de comando básico para fuzzing de directorios:
             ```bash
@@ -52,7 +52,7 @@ Unidad 3 - Actividad 2. Detección de equipos, puertos, servicios,vulnerabilidad
             ```bash
             dirb http://[dominio]
             ```
-- Que scripts que podemos utilizar con Nmap para la búsqueda de vulnerabilidades.
+- ## Que scripts que podemos utilizar con Nmap para la búsqueda de vulnerabilidades.
     - **Nmap Scripting Engine (NSE)**: Nmap tiene un conjunto de scripts predefinidos para detectar vulnerabilidades.
     - Para ver la lista de scripts disponibles, puedes consultar:
         ```bash
@@ -64,14 +64,14 @@ Unidad 3 - Actividad 2. Detección de equipos, puertos, servicios,vulnerabilidad
         ```
 
 
-- Cómo podemos buscar información de explotación de vulnerabilidades con searchsploit
+- ## Cómo podemos buscar información de explotación de vulnerabilidades con searchsploit
     - **Searchsploit** es una herramienta que proporciona acceso a la base de datos de Exploit-DB, donde puedes encontrar exploits disponibles para vulnerabilidades    conocidas.
         - Comando básico para buscar exploits para Linux con Kernel 5:
             ```bash
             searchsploit linux kernel 5
             ```
 
-- Instala en tu navegador la extensión de Shodan y muestra la información que tenemos tanto de ip, como de dominio del sitio http://iesvalledeljerteplasencia.es 
+- ## Instala en tu navegador la extensión de Shodan y muestra la información que tenemos tanto de ip, como de dominio del sitio http://iesvalledeljerteplasencia.es 
     1. Para automatizar la búsqueda o realizar consultas avanzadas, podemos usar la API de Shodan desde Kali Linux.Pasa ello nos vamos a la página de [Shodan](https://www. shodan.io/)  y como ya estamos registrados obtenenmos la cogemos nuestra API key . 
     ![](imagenes/imagen1.png)
 
@@ -91,7 +91,7 @@ Unidad 3 - Actividad 2. Detección de equipos, puertos, servicios,vulnerabilidad
        
       
 
-- Sobre la red del laboratorio PPS con kali, bWAPP, Multidillae y DVWA:<
+- ## Sobre la red del laboratorio PPS con kali, bWAPP, Multidillae y DVWA:<
     Lo primero que hacemos es arranca el el multicontenedor con los diferentes servicios.Desde el kali realizare las siguientes operaciones para resolver los ejercicios más adelante.
 
     ![](imagenes/imagen6.png) 
