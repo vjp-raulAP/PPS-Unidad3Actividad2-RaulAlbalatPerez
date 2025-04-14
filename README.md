@@ -86,7 +86,8 @@ Unidad 3 - Actividad 2. Detección de equipos, puertos, servicios,vulnerabilidad
 
     4. Ya tenemos guardada la extensión de Shodan.
 
-    ![](imagenes/imagen4.png)  
+    ![](imagenes/imagen4.png) 
+     
     5. En le navegador buscamos http://iesvalledeljerteplasencia.es  y nos aparece la extension de shodan indicadonos los puertos abiertos.
      
     ![](imagenes/imagen5.png) 
