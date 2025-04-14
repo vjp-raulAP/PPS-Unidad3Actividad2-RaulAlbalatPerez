@@ -73,22 +73,23 @@ Unidad 3 - Actividad 2. Detección de equipos, puertos, servicios,vulnerabilidad
 
 - ## Instala en tu navegador la extensión de Shodan y muestra la información que tenemos tanto de ip, como de dominio del sitio http://iesvalledeljerteplasencia.es 
 
-    1. Para automatizar la búsqueda o realizar consultas avanzadas, podemos usar la API de Shodan desde Kali Linux.Pasa ello nos vamos a la página de [Shodan](https://www. shodan.io/)  y como ya estamos registrados obtenenmos la cogemos nuestra API key . 
+1. Para automatizar la búsqueda o realizar consultas avanzadas, podemos usar la API de Shodan desde Kali Linux.Pasa ello nos vamos a la página de [Shodan](https://www. shodan.io/)  y como ya estamos registrados obtenenmos la cogemos nuestra API key . 
     ![](imagenes/imagen1.png)
 
-    2. Instalamos la extension de  Shodan en nuestro navegador.Para ello nos vamos a la parte superior derecha del navegador firefox y pinchamos en el logo con forma de piez de puzle añadimos la extension de shodan. 
+2. Instalamos la extension de  Shodan en nuestro navegador.Para ello nos vamos a la parte superior derecha del navegador firefox y pinchamos en el logo con forma de piez de puzle añadimos la extension de shodan. 
 
     ![](imagenes/imagen2.png)
 
-    3. Pulsamos en Añadir a firefox
+3. Pulsamos en Añadir a firefox
 
     ![](imagenes/imagen3.png)
 
-    4. Ya tenemos guardada la extensión de Shodan.
+4. Ya tenemos guardada la extensión de Shodan.
 
     ![](imagenes/imagen4.png) 
-     
-    5. En le navegador buscamos http://iesvalledeljerteplasencia.es  y nos aparece la extension de shodan indicadonos los puertos abiertos.
+
+    
+5. En le navegador buscamos http://iesvalledeljerteplasencia.es  y nos aparece la extension de shodan indicadonos los puertos abiertos.
      
     ![](imagenes/imagen5.png) 
        
